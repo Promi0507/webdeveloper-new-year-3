@@ -44,3 +44,117 @@ body{
     flex-shrink: 0;
     margin: 30px 230px 167px 1210px;
 }
+/* main section style  */
+main{
+    width: 1600px;
+    height: 3223px;
+}
+/* profile section style */
+.profile-section{
+    display: flex;
+    background: #FFF;
+    margin-top: 130px;
+    align-items: center;
+    /* /* padding: 130px 100px 0px 450px;  */
+    padding-left: 650px;
+    
+   
+    
+}
+.about-profile{
+    padding-left: 105px;
+}
+.profile-pic{
+
+    
+}
+.profile-tittle{
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+}
+.profile-description{
+    width: 416px;
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.description-list{
+    color: var(--Dark-02, #444343); 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    
+}
+.plan-section{
+    width: 1600px;
+    height: 3223px; 
+    padding-left: 711px;
+    background: #FFF;
+    
+}
+.my-plans{
+   text-align: center;
+   padding: 130px 710px 0px 710px;
+   color: var(--Dark-01, #151414);
+   font-size: 40px;
+   font-weight: 700;
+}
+.about-icons{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 49.7px;
+}
+.icon-pic{
+    width: 92.958px;
+    height: 92.958px;
+    flex-shrink: 0;
+    padding-left: 50px;
+
+}
+.icon-name{
+    color: var(--Dark-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+    
+ 
+
+}
+.icon-description{
+    color: var(--Dark-03, #737272);
+    font-size: 25px; 
+    font-weight: 500;
+    text-align: center;
+}
+
+.icon-pic2{
+   
+}
+.icon-name2{
+    
+} 
+.icon-description{
+    color: var(--Dark-03, #737272);
+    font-size: 25px; 
+    font-weight: 500;
+}
+.icon-pic{
+   
+}
+.icon-name3{
+    
+}
+.icon-description1{
+
+}
+.icon-pic4{
+}
+.icon-name4{
+
+}
+.icon-description1{
+
+}
