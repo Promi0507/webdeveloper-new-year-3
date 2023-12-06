@@ -9,10 +9,16 @@ body{
 /* nav section style */
 .banner{
     display: flex;
-    width: 1600px;
-    height: 809px;
+    width: 3700px;
+    height: 1009px;
     flex-shrink: 0;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.banner-image{
+    width: 2000px;
+    height: 1009px;
+    
+
 }
 .banner-tittle{
     width: 525px;
@@ -21,6 +27,7 @@ body{
     font-size: 65px;
     font-weight: 700;
     padding: 216px 230px 0px 845px;
+    
 }
 .banner-description{
     width: 494px;
@@ -47,7 +54,8 @@ body{
 /* main section style  */
 main{
     width: 1600px;
-    height: 3223px;
+    height: 1923px;
+
 }
 /* profile section style */
 .profile-section{
@@ -87,6 +95,7 @@ main{
     line-height: 26px; /* 162.5% */
     
 }
+/* plan section styles */
 .plan-section{
     width: 1600px;
     height: 3223px; 
@@ -141,20 +150,119 @@ main{
     font-size: 25px; 
     font-weight: 500;
 }
-.icon-pic{
-   
+
+/* positive section styles */
+.positive-section{
+    width: 1140px;
+    height: 800px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%); */
+    margin-top: 130px;
+
 }
-.icon-name3{
+.keep-positive{
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 59px 0px 0px 64px;
+}
+.call-now{
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin: 0px 0px 60px 64px;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
     
 }
-.icon-description1{
+/* footer style */
+.personal-details{
+    display: flex;
+    justify-content: space-between;
+    width: 3700px;
+    height: 777px;
+    flex-shrink: 0;
+    background: var(--Dark-01, #151414);
+}
+.details-tittle{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 130px 0px 0px 230px;
+}
+.details-description{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 0px 230px;
+    line-height: 26px; /* 162.5% */
+}
+.personal-email{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding: 0px 0px 0px 230px;
+}
+.phone-number{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 0px 230px;
+    line-height: 26px; /* 162.5% */
+}
+.app-icon{
+    width: 150px;
+    height: 46px;
+    flex-shrink: 0;
+    padding: 12px 0px 130px 230px;
+    justify-content: space-between;
+}
+.text{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 130px 431px 0px 0px;
 
 }
-.icon-pic4{
+.contact input{
+    display: block;
 }
-.icon-name4{
+.email{
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: #151414;
+    margin-right: 229px;
+    color: var(--Dark-07, #F3F3F3);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 21px 58px 22px 21px;
 
+   
 }
-.icon-description1{
-
+.Subscribe{
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin: 16px 0px 243px 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #F15B22;
 }
+   
